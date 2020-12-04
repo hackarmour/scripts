@@ -1,7 +1,4 @@
-# scripts
-
-
-## Main idea
+# Main idea
 - Upload any script you have created or used, that you think might be useful for others !
 - The main idea is that by the end of some time, we will have a database of useful scripts that can be used in pentesting - or any situation.
 - Made a quick dirty python script to decode `brainfuck` for a CTF? Post it here! People can learn from you, and use it too!
