@@ -17,4 +17,5 @@
 - **10** - Post Exploitation
 - **11** - Forensics
 - **12** - Reporting Tools
-- **13** - Other
+- **13** - Write-ups
+- **14** - Other
