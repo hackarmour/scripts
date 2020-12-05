@@ -10,3 +10,4 @@
 **ln**. completely duplicates the file, and links the duplicate to the original copy
 **ln -s** just a reference to another file (symlink)
 **find**. `find / -type {f/d} -user kittycat -size {-2k/+2k} -name "*.xml"`
+
