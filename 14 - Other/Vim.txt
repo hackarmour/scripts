@@ -1,0 +1,43 @@
+-- 𝙑𝙞𝙢 --
+
+N̲a̲v̲i̲g̲a̲t̲i̲o̲n̲:
+← → ↑ ↓
+h l k j
+
+I - enter insert mode
+esc - exit insert mode (enter command mode)
+w - jump to start of word
+e - jump to end of word
+i - insert before the cursor
+I - insert at the beginng of line
+a - insert after the cursor
+A - insert at the end of line
+o - start new line
+u - undo
+ctrl + r - redo
+yy - copies an entire line
+2yy - copy 2 lines
+y$ - copy to the end of line 
+p - paste after cursor
+P - paste before cursor
+d - cut line
+2dd - cut 2 lines
+D - cut to the end of line
+x - cut character
+
+C̲o̲m̲m̲a̲n̲d̲s̲:
+
+:w - save as
+:wa - save all tabs
+:wq - save & quit
+:wqa - write & save all tabs
+:q - quit without saving
+:q! - force quit
+:qa - quit all tabs
+/{string} - search forward for a pattern
+?{string} - search backwards for a pattern
+n - repeat this search in the same direction
+N -repeat this search in the opposite direction
+:%s/old/new/g - search and replace old with new (greedy mode)
+:vimgrep - use grep to search for a pattern in multiple files
+

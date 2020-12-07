@@ -1,0 +1,76 @@
+--- 𝙍𝙤𝙤𝙢𝙨 --
+
+W̲a̲v̲e̲ ̲1̲:
+· CC: PenTesting 
+· RP: tmux
+· The Find Command
+· Toolbox: Vim
+· Blue
+· RP: Web Scanning
+· DVWA
+· Plethora
+
+
+W̲a̲v̲e̲ ̲2̲:
+· Hydra
+· Crack the Hash
+· Agent Sudo
+· Linux Privesc Playground
+· The Cod Caper
+· LazyAdmin
+· Basic Pentesting
+· Ice
+· Blueprint
+· CC: Stenography
+· Easy Stenography
+· CC: Ghidra
+· WebGOAT
+· Simple CTF
+
+W̲a̲v̲e̲ ̲3̲:
+· Hackernote
+· LFI Basics
+· Inclusion
+· INtro to x86-64
+· Intro to Malware Analysis
+· Sudo Buffer Overflow
+· Sudo Security Bypass
+· Wireshark 0x01
+· KnockKnock
+· RP: PS Empire
+· Dumping Router Firmware
+· Welcome To TryHackMe
+
+
+W̲a̲v̲e̲ ̲4̲:
+· BP: Splunk
+· Ignite
+· Wgel CTF
+· Ninja Skills
+· Advent of Cyber
+· CT collection Vol.1
+· MAdness
+· Stealthcopter ctf primer1
+· Reversing ELF
+· Dav
+· Anonforce
+· Library
+· Rhompson
+· STEGOsaurus
+· c4pt3-th3-fl4g
+
+
+W̲a̲v̲e̲ ̲.̷̲̲̲̲̲̲̲̲̲̲̲̲̲̲̲̟̲͓̲̗̲̥̲̮̲̤̲̪̲̥̲̺̲̞̲̔̂̊̐ͣ̏̔̉́̚̚͘͟9̴̵̲̲̲̲̲̲̲̲̲̲̲̲̲̲̲̲̪̲͇̲͔̲̱̲̪̲̩̲̬̲̒̅ͮ̈̐̅͑ͯͨ͑̈́̈ͅ:
+· Pentest Questionaire
+· PentstQuiz
+· Shodan.io
+· WiFi Hacking 101
+· Custom wordlists
+· TOR for beginners
+· Geolocating images
+· Jupyter 101
+· Phishing: HiddenEye
+· RP: Sublist3r
+· OhSINT
+· Android Hacking 101
+

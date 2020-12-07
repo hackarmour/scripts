@@ -1,0 +1,111 @@
+-- Intro --
+
+Metasploit, an open-source pentesting framework, is a powerful tool utilized by security engineers around the world. Maintained by Rapid 7, Metasploit is a collection of not only thoroughly tested exploits but also auxiliary and post-exploitation tools. It contains a large database of almost every major CVE, which you can easily use against a machine.
+
+
+
+-- Types of Modules --
+
+--> https://i.imgur.com/iYuiWvP.png
+Note, This diagram does not include the 'Post' module.
+
+
+𝗘𝘅𝗽𝗹𝗼𝗶𝘁 - Holds all of the exploit code
+
+𝗣𝗮𝘆𝗹𝗼𝗮𝗱 - Used hand in hand with exploits, this module contains the various bits of shellcode we send to have executed following exploitation
+
+𝗘𝗻𝗰𝗼𝗱𝗲𝗿 - Commonly utilized in payload obfuscation, this module allows us to modify the 'appearance' of our exploit such that we may avoid signature detection
+
+𝗡𝗢𝗣 - This module is used with buffer overflow and ROP attacks
+
+𝗔𝘂𝘅𝗶𝗹𝗹𝗮𝗿𝘆 - This module is most commonly used in scanning and verification that machines are exploitable
+
+𝗣𝗼𝘀𝘁 - One of the most common activities after exploitation is looting and pivoting
+
+
+
+-- General Commands --
+
+? 		help menu 
+search 		find modules 
+use 		use a module
+info 		see info about a module
+connect		make a connection with host to see if we can talk to it
+set		change value of a variable
+setg		change a variable globally
+get		get the value of variables
+spool		set console output to save to a file
+save		store settings/active datastores from Metasploit to a settings file
+load		load different modules
+vulns		see discovered vulnerabilities
+exploit		run the exploit
+sessions	list sessions
+ps		list processes
+options		list options that can be set
+advanced	view advanced options for a specific module
+show		show options in a specific category
+LHOST		your ip
+LPORT		your port
+RHOSTS		target host(s)
+RPORT		target port
+arch		sets the architecture to be exploited
+payload		sets the payload to be sent to the target machine
+-j		set this flag if you want the exploit to run in the background
+-i		this flag allows you to go into interactive mode with a session("drops you either into a meterpreter or regular shell")
+
+
+
+-- Commands --
+
+migrate		move into a different process
+getuid		see information about the current user
+sysinfo		find info about the system
+getprivs	figure out priviliges of the current user
+upload		transfer files to the victim computer
+download	transfer files from the victim computer to yours
+run		run a Metalpoit module
+ipconfig	command to igure out the networking information and interfaces on the victim
+execute		execute a command on the remote host
+shell		starts an interactive shell on the remote host
+background	background a meterpreter shell
+
+
+
+-- Msfconsole Commands --
+
+Common options:
+    -E, --environment ENVIRONMENT    Set Rails environment, defaults to RAIL_ENV environment variable or 'production'
+
+Database options:
+    -M, --migration-path DIRECTORY   Specify a directory containing additional DB migrations
+    -n, --no-database                Disable database support
+    -y, --yaml PATH                  Specify a YAML file containing database settings
+
+Framework options:
+    -c FILE                          Load the specified configuration file
+    -v, -V, --version                Show version
+
+Module options:
+        --defer-module-loads         Defer module loading unless explicitly asked
+    -m, --module-path DIRECTORY      Load an additional module path
+
+Console options:
+    -a, --ask                        Ask before exiting Metasploit or accept 'exit -y'
+    -H, --history-file FILE          Save command history to the specified file
+    -L, --real-readline              Use the system Readline library instead of RbReadline
+    -o, --output FILE                Output to the specified file
+    -p, --plugin PLUGIN              Load a plugin on startup
+    -q, --quiet                      Do not print the banner on startup
+    -r, --resource FILE              Execute the specified resource file (- for stdin)
+    -x, --execute-command COMMAND    Execute the specified console commands (use ; for multiples)
+    -h, --help                       Show this message
+
+
+
+
+-- Tips --
+
+set LHOST to 𝘁𝘂𝗻𝟬 - instead of your ip adress
+run post/windows/gather/checkvm - determine if you're in a VM (very useful piece of knowledge for further pivoting)
+run post/multi/recon/local_exploit_suggester - This will check for various exploits which can be run within the session to elevate privileges
+run post/windows/manage/enable_rdp - force RDP to be available

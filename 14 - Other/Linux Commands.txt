@@ -1,0 +1,26 @@
+-- 𝙇𝙞𝙣𝙪𝙭 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 -- 
+
+1. touch (creates files)
+2. su (change user ssh)
+3. > (redirect the output of any command to a file)
+4. >> (appends output to file)
+5. && (allows you to execute a second command after the first one has executed successfully)
+6. & (allows to run another command without waiting for the other one to finnish)
+7. $ (used to denote env. vars - $USER)
+8. | (allows you to take the output of a command and use it as input for a second command)
+9. ; (like &&, however doesn't require the first command to excec succesfully)
+10. chmod (allows you to set the different perms of a file)
+11. chown (allows us to change the user and group for any file)
+12. rm (removes files / dir)
+13. mv (move file)
+14. cp (copies files)
+15. cd (move dir)
+16. mkdir (make dir)
+17. ln (linking files)
+18. find (find files)
+19. grep (It allows you find data inside of data)
+20. find (find files)
+
+-- Tips --
+
+perms cheat sheet --> https://media.discordapp.net/attachments/601865535260590102/743461929607102524/unknown.png?width=960&height=368
